@@ -35,6 +35,7 @@ m_y=[0,1000]
 ax.plot(m_x,m_y, color='lightblue', linewidth=3)
 ax.scatter(x,y,color='darkgreen',marker='^')
 plt.show()
+plt.savefig('Sort.png')
 
 x_left=[]
 x_right=[]
